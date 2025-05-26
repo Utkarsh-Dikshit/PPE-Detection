@@ -1,5 +1,4 @@
-# Object Detection Course
-
+# PPE Detection 
 cvzone
 ultralytics
 hydra-core
