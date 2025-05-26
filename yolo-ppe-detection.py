@@ -1,19 +1,18 @@
 import cv2
 from ultralytics import YOLO
 
-# We will be using cvzone to display all the detections, as it makes it a little bit easier.
+# We will be using cvzone to display all the detections
 import cvzone
 import math
 
-# cap = cv2.VideoCapture(0) # For Webcam
+# For Webcam
+# cap = cv2.VideoCapture(0) 
 # # # setting the width and height of the webcam
 # cap.set(3, 1280) # width
 # cap.set(4, 720) # height
 
-cap = cv2.VideoCapture("../Videos/ppe-1-1.mp4") #  For Videos
-
-# If you want to know what are the arguments a functions can take and want to have detailed information about it.
-# Press Ctrl + Left Click on the function to understand it properly
+#  For Videos
+cap = cv2.VideoCapture("../Videos/ppe-1-1.mp4") 
 
 model = YOLO('best.pt')
 
