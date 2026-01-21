@@ -14,7 +14,7 @@ import math
 #  For Videos
 cap = cv2.VideoCapture("../Videos/ppe-1-1.mp4") 
 
-model = YOLO('best.pt')
+model = YOLO('ppe.pt')
 
 # Based on  Dataset which we have created using google colab
 classNames = ['Excavator', 'Gloves', 'Hardhat', 'Ladder', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person',
